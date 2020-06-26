@@ -107,10 +107,24 @@ class StoreList extends Component {
         const updatedItems = [...this.state.listArr, newvalue]
 
         this.setState({
-            listArr: updatedItems,
-            openModel:false
+            listArr: updatedItems
         }, () => {
-            console.log(this.state)
+            let errors = this.state.errors;
+            if(this.state.fullName === '' && this.state.email === '' && this.state.mobileno === '' 
+                && this.state.companyname === '' && this.state.location === '') {
+                errors.fullName = 'Full Name must be 5 characters long!';
+             errors.email = 'invalid email format';
+             errors.mobileno = 'invalid mobile number';
+             errors.companyname ='company name not match'
+             errors.location ='location not match'
+                this.setState({
+                    errors
+                })
+            }else{
+              this.setState({
+                  openModel:false
+              })
+            }
         })
     }
     componentDidMount=()=>{
