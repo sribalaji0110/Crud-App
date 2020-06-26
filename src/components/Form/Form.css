@@ -1,0 +1,130 @@
+.model_overall {
+    position: fixed;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    background-color: #00000059;
+    left: 0;
+    height: 100%;
+    z-index: 9;
+}
+
+.models_body {
+    width: 40%;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50px;
+}
+
+.model_head {
+    float: left;
+    width: 100%;
+    padding: 15px 30px;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    background-color: #0b2239;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.model_content {
+    float: left;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.model_head h5 {
+    float: left;
+    width: 100%;
+    margin: 0px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 300;
+    color: #fff;
+}
+
+.model_content {
+    float: left;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.model_head span {
+    float: right;
+    color: #fff;
+    position: absolute;
+    cursor: pointer;
+}
+
+form.model_form p {
+    float: left;
+    width: 100%;
+    color: red;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.model-foot {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #ecf0f1;
+    padding: 17px 31px;
+}
+
+.model-foot button.button_foot {
+    float: left;
+    width: 95px;
+    text-transform: capitalize;
+}
+
+.model-foot button.cancel {
+    float: left;
+    width: 68px;
+    margin-right: 10px;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.content_btn {
+    float: right;
+}
+
+.content_btn button.delete {
+    background: #ff0000bf;
+}
+
+.model_head.delete h4 {
+    width: 100%;
+}
+
+.model_content.delete p {
+    color: #ffc107;
+    font-size: 13px;
+    float: left;
+    width: 100%;
+}
+
+.model_content.delete h6 {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    color: #566787;
+}
+
+.model_content.delete {
+    min-height: 100px;
+    padding-top: 20px;
+}
+
+.content_btn.centers {
+    float: left;
+    width: 100%;
+    text-align: center;
+}

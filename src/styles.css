@@ -1,0 +1,380 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: whitesmoke;
+}
+
+.App {
+    float: left;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.list {
+    float: left;
+    width: 100%;
+}
+
+.list_overall {
+    float: left;
+    width: 100%;
+    padding-top: 55px;
+}
+
+.list_head {
+    float: left;
+    width: 100%;
+    background-color: #435d7d;
+    border-radius: 3px;
+    padding: 22px 30px;
+}
+
+.list_head h4 {
+    float: left;
+    width: 57%;
+    margin: 0px;
+    color: #fff;
+    padding-top: 6px;
+}
+
+.list_btn {
+    float: left;
+    width: 42%;
+    text-align: right;
+}
+
+.list_btn button {
+    background-color: #28a745;
+    border: none;
+    padding: 6px 8px;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+}
+
+.list_table {
+    float: left;
+    width: 100%;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+.list_table table {
+    width: 100%;
+}
+
+.list_table table thead {
+    width: 100%;
+}
+
+.list_table table thead tr {
+    width: 100%;
+}
+
+.list_table table thead tr th {
+    width: auto;
+}
+
+.list_table table tbody {
+    width: 100%;
+}
+
+.list_table table tbody tr {
+    width: 100%;
+}
+
+.list_table table tbody tr td {
+    width: auto;
+}
+
+.list_table table tbody tr td td.img_view {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.list_table table tbody tr td td.img_view img {
+    width: 30px !important;
+}
+
+.list_table table {
+    border-collapse: collapse;
+}
+
+.list_table table tbody tr td span i {
+    text-align: center;
+    width: 30%;
+}
+
+.list_table table tbody tr td img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.list_table table tbody tr.empty_list {
+    width: 100%;
+    display: inline-block;
+}
+
+.list_table table tbody tr.empty_list td.no_data {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    text-transform: capitalize;
+    color: #ff0000d1;
+}
+
+.list_table table thead tr th {
+    width: auto;
+    border-bottom: 2px solid #dee2e6d6;
+    padding: 15px 0px;
+    border-top: 2px solid #dee2e6d6;
+    font-weight: bolder;
+}
+
+.list_table table tbody tr td {
+    width: auto;
+    padding: 13px 0px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.list_table {
+    position: relative;
+}
+
+.list_btn input {
+    border: none;
+    padding: 5px 13px;
+    float: left;
+    width: 170px;
+    border-radius: 2px;
+    outline: none;
+    margin-right: 19px;
+}
+
+.list_btn button.clear {
+    background: #dc3545;
+    float: left;
+    width: 83px;
+    color: #fff;
+}
+
+.list_btn button span i {
+    padding: 3px 5px;
+    background: #fff;
+    color: #dc3545a6;
+    border-radius: 50%;
+    margin-right: 3px;
+    float: left;
+}
+
+.list_btn button.add i {
+    color: #28a745;
+    font-size: 13px;
+}
+
+.list_btn button.add:hover {
+    background-color: #218838;
+}
+
+.list_btn button {
+    transition: all 1.0s ease-out;
+}
+
+.list_btn button.clear:hover {
+    background-color: #c82333;
+}
+
+span.edit {
+    color: #ffc720;
+    font-weight: bolder;
+}
+
+span.delete i {
+    color: #f5564a;
+    font-weight: bold;
+}
+
+span.view i {
+    color: #3eaeb5;
+}
+
+.list_table table tbody tr td.icons span i {
+    cursor: pointer;
+}
+
+form.model_form {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+}
+
+form.model_form label {
+    float: left;
+    width: 100%;
+}
+
+form.model_form {
+    float: left;
+    width: 100%;
+    padding-top: 40px;
+}
+
+form.model_form label {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+form.model_form input {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding: 2px 13px;
+    margin-bottom: 8px;
+}
+
+ul.view_listed {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.view_listed li {
+    float: left;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+ul.view_listed li span {
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+ul.view_listed li a {
+    float: left;
+    width: 100%;
+    font-size: 15px;
+    background-color: #eef7fb;
+    padding: 10px;
+    color: #00000094;
+    border-radius: 6px;
+    cursor: inherit;
+    text-decoration: none;
+}
+
+
+/*responsive */
+
+@media only screen and (max-width: 767px) {
+    .list_head h4 {
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .list_btn {
+        width: 100%;
+    }
+    .list_table {
+        padding: 0;
+        overflow-x: auto;
+        min-height: 330px;
+    }
+    .list_table table thead tr th {
+        padding: 20px;
+    }
+    div .models_body {
+        top: 28px;
+        left: 18px;
+        transform: none;
+        width: 90%;
+        margin: 0px auto;
+        margin: 0px auto;
+        display: inline-block;
+    }
+    .models_body.delete {
+        top: 57px;
+        left: 16px;
+    }
+    .list_overall {
+        padding-top: 20px;
+    }
+    .list_btn span.searched {
+        width: 100%;
+        margin-bottom: 10px;
+        float: none;
+        display: inline-block;
+        text-align: center;
+    }
+    .list_btn input {
+        display: inline-block;
+        margin: 0px auto;
+        float: none;
+    }
+    span.btn_views button {
+        float: none !important;
+        margin: 0px auto;
+        text-align: center !important;
+        margin-bottom: 10px;
+          margin-right: 10px;
+    }
+    span.btn_views {
+        text-align: center;
+        float: none;
+        margin: 0px auto;
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 1023px) {
+    span.btn_views button {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .models_body {
+    width: auto;
+}
+    .list_head h4 {
+        float: left;
+        width: 35%;
+    }
+    .list_btn {
+        float: left;
+        width: 65%;
+    }
+    .list_btn input {
+        width: 140px;
+    }
+    .list_table {
+        padding: 10px;
+        overflow-x: auto;
+        min-height: 352px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .list_btn button.clear {
+        margin-right: 10px;
+    }
+      .models_body {
+    width: auto;
+}
+    .list_btn {
+        float: right;
+        width: auto;
+    }
+    .list_head h4 {
+        width: auto;
+    }
+}
